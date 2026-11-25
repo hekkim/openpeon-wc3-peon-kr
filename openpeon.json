@@ -1,0 +1,186 @@
+{
+  "cesp_version": "1.0",
+  "name": "peon_kr",
+  "display_name": "오크 일꾼 (Warcraft III, 한국어)",
+  "version": "1.0.0",
+  "description": "Warcraft III: Reforged Orc Peon (오크 일꾼) Korean voice lines",
+  "author": {
+    "name": "heecheonkim",
+    "github": "hekkim"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "ko",
+  "tags": [
+    "gaming",
+    "warcraft",
+    "blizzard",
+    "korean",
+    "orc",
+    "peon"
+  ],
+  "icon": "icon.png",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PeonReady1_KR.wav",
+          "label": "준비 완료!",
+          "sha256": "e9cee77ecc6b726b466914b135d8f8aa9ff5f67379299f82aae9144676992b2a"
+        },
+        {
+          "file": "sounds/PeonWhat1_KR.wav",
+          "label": "(짧은 대답)",
+          "sha256": "301795172baf231890841630c1b5ab5cbe899b573979996b3a249ad44a967367"
+        },
+        {
+          "file": "sounds/PeonWhat3_KR.wav",
+          "label": "무슨 일이죠?",
+          "sha256": "e1058a4fa74b2c53b1e2cc518572eea3d733476f119001ba3f1005cc2a66676c"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/PeonYes1_KR.wav",
+          "label": "할 수 있고 말고요.",
+          "sha256": "1a8eab0efe848c3570c1749aff48041bfed0963a00896d3d14d3df97bc7687ea"
+        },
+        {
+          "file": "sounds/PeonYes2_KR.wav",
+          "label": "기꺼이 하죠.",
+          "sha256": "1146e362fea3aa40e0d19d63de7ffec614854f37465a9374fc71849f763dfda7"
+        },
+        {
+          "file": "sounds/PeonYes3_KR.wav",
+          "label": "일하자, 일.",
+          "sha256": "5f9ae06b59aeef89ff28133c6e9363c7a08021166a5a16d84ed8280af03c0b22"
+        },
+        {
+          "file": "sounds/PeonYes4_KR.wav",
+          "label": "좋아요, 좋아.",
+          "sha256": "fa3d4826d976992a1a12e8771a05c60f2924b02b21f2453dfd55486e8c87bf42"
+        },
+        {
+          "file": "sounds/PeonYesAttack1_KR.wav",
+          "label": "알겠습니다.",
+          "sha256": "32056a651b35f5c1caefede1ac6d7cc816d44407a2f5b4c5dadfb229338cd8a3"
+        },
+        {
+          "file": "sounds/PeonYesAttack3_KR.wav",
+          "label": "그렇게 하죠.",
+          "sha256": "531b0f0b70cf42cc3c5d0fe045b8c0acfa7d8fac801b713f972b499ff98a40c9"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/PeonReady1_KR.wav",
+          "label": "준비 완료!",
+          "sha256": "e9cee77ecc6b726b466914b135d8f8aa9ff5f67379299f82aae9144676992b2a"
+        },
+        {
+          "file": "sounds/PeonWhat4_KR.wav",
+          "label": "도움이 필요한가요?",
+          "sha256": "2fa9553b25e3312cfdbdb87b5a2fbc272a05f0eb2c3b9bfc35437aeef72142f0"
+        },
+        {
+          "file": "sounds/PeonYes3_KR.wav",
+          "label": "일하자, 일.",
+          "sha256": "5f9ae06b59aeef89ff28133c6e9363c7a08021166a5a16d84ed8280af03c0b22"
+        },
+        {
+          "file": "sounds/PeonYes4_KR.wav",
+          "label": "좋아요, 좋아.",
+          "sha256": "fa3d4826d976992a1a12e8771a05c60f2924b02b21f2453dfd55486e8c87bf42"
+        },
+        {
+          "file": "sounds/PeonYesAttack1_KR.wav",
+          "label": "알겠습니다.",
+          "sha256": "32056a651b35f5c1caefede1ac6d7cc816d44407a2f5b4c5dadfb229338cd8a3"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/PeonAngry4_KR.wav",
+          "label": "난 다른 오크와는 달라요.",
+          "sha256": "35050f632580bb85bd6058328997459a73017a5c97e371728aa9d9eecf82e4ae"
+        },
+        {
+          "file": "sounds/PeonAngry1_KR.wav",
+          "label": "뭐라구요?",
+          "sha256": "f355edd4ef7723c58899ba50a3f624b8e190ee253fb51232d8e775a4bbc76ba5"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PeonWhat4_KR.wav",
+          "label": "도움이 필요한가요?",
+          "sha256": "2fa9553b25e3312cfdbdb87b5a2fbc272a05f0eb2c3b9bfc35437aeef72142f0"
+        },
+        {
+          "file": "sounds/PeonWhat2_KR.wav",
+          "label": "(짧은 대답 2)",
+          "sha256": "0a2810d822337db7ca7ed5bc564e3d31aa2d8362b39d147f78999be5d94710d9"
+        },
+        {
+          "file": "sounds/PeonWhat3_KR.wav",
+          "label": "무슨 일이죠?",
+          "sha256": "e1058a4fa74b2c53b1e2cc518572eea3d733476f119001ba3f1005cc2a66676c"
+        },
+        {
+          "file": "sounds/PeonWhat1_KR.wav",
+          "label": "(짧은 대답)",
+          "sha256": "301795172baf231890841630c1b5ab5cbe899b573979996b3a249ad44a967367"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/PeonWarcry1_KR.wav",
+          "label": "못할 건 없죠.",
+          "sha256": "7c634420b40fb2446a7fbfe4c7e0fc46021c506a579c49d5a015b29865ed9598"
+        },
+        {
+          "file": "sounds/PeonAngry3_KR.wav",
+          "label": "노닥거릴 시간 없어요.",
+          "sha256": "c2be555357d0cb513b2a997d3ec196094c882c56768ab61cd267235fd19e16ee"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/PeonAngry1_KR.wav",
+          "label": "뭐라구요?",
+          "sha256": "f355edd4ef7723c58899ba50a3f624b8e190ee253fb51232d8e775a4bbc76ba5"
+        },
+        {
+          "file": "sounds/PeonAngry2_KR.wav",
+          "label": "나 바빠요. 건드리지 마세요.",
+          "sha256": "146dba6d723f9dad08f47ae96a071408fd243abbd18caffc2cf5168991ca6a52"
+        },
+        {
+          "file": "sounds/PeonAngry3_KR.wav",
+          "label": "노닥거릴 시간 없어요.",
+          "sha256": "c2be555357d0cb513b2a997d3ec196094c882c56768ab61cd267235fd19e16ee"
+        }
+      ]
+    }
+  },
+  "category_aliases": {
+    "greeting": "session.start",
+    "acknowledge": "task.acknowledge",
+    "complete": "task.complete",
+    "error": "task.error",
+    "permission": "input.required",
+    "resource_limit": "resource.limit",
+    "annoyed": "user.spam"
+  }
+}
